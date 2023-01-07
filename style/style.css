@@ -131,11 +131,12 @@ li {
     justify-items: center;
     align-items: center;
 } */
+/* khub koste korchi bt kemne korchi Jani na */
 .linear-gradient {
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1000px;
+    width: 1050px;
     height: 260px;
     display: flex;
     flex-direction: column;
@@ -143,49 +144,88 @@ li {
     align-items: flex-start;
     margin-top: 125px;
     margin-bottom: 125px;
-    margin-left: 170px;
+    margin-left: 135px;
     border-radius: 8px;
+    padding-left: 60px;
 
+}
 
+.linear-gradient-title {
+    font-weight: 700;
+    font-size: 40px;
+    width: 459px;
+    height: 94px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
 }
 
 /* footer Style */
 .footer-container {
     background-color: #151414;
-    height: 577px;
+    height: 500px;
     display: flex;
     flex-direction: ;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .footer-title {
     color: #F8F8F8;
     font-weight: 700;
     font-size: 45px;
+    padding-bottom: 15px;
+    padding-top: 30px;
 }
 
 .footer-sub-title {
     color: #F8F8F8;
     width: 400px;
     height: 765x;
+    padding-bottom: 15px;
 }
 
-.Email {
-    color: #F8F8F8;
-    margin-bottom: 8px;
-}
-
+.Email,
 p {
+    padding-bottom: 15px;
     color: #F8F8F8;
 }
-.subscribe{
+
+
+.subscribe-container {
     width: 325px;
     height: 204px;
-    margin: 8px;
+
 
 }
-.Subscribe-title{
+
+.Subscribe-title {
     color: #F8F8F8;
-    margin-bottom: 8px;
+    padding-bottom: 29px;
+}
+
+.btn-Subscribe {
+    background: #005FAC;
+    color: white;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+}
+
+.input-email {
+    width: 250px;
+    height: 55px;
+    border: white 1px solid;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: #151414;
+
+}
+
+img {
+    padding-top: 30px;
+    margin-left: 8px;
 }
