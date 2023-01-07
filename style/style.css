@@ -1,10 +1,11 @@
 * {
     margin: 0;
 }
+
 /* Header Style */
 .header-main {
     background-image: url(../images/banner/banner3.png);
-    height: 800px;
+    height: 665px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -12,7 +13,8 @@
     justify-content: center;
     color: white;
     background-color: rgba(0, 0, 0, .07);
-    padding-right: 40px;
+    padding-right: 130px;
+    margin-bottom: 125px;
 
 }
 
@@ -40,8 +42,150 @@
     border-radius: 5px;
     border: none;
 }
-.middle-part{
+
+.middle-part {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* majher style */
+.middle-title {
+    font-weight: 700;
+    font-size: 40px;
+    width: 288px;
+    height: 94px;
+    margin-bottom: 22px;
+}
+
+.middle-sub-title {
+    width: 400px;
+    height: 75px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.middle-list ul,
+li {
+    list-style: symbols();
+    margin-bottom: 8px;
+    color: #444343;
+    list-style: none;
+
+}
+
+/* Mt Plans Style */
+.my-plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 45px;
+}
+
+.my-plans-container {
     display: flex;
     justify-content: center;
+
+}
+
+.aim {
+    justify-content: center;
+    text-align: center;
+    width: 270px;
+    height: 197px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414
+}
+
+.aim-title {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.aim-1 {
+    justify-content: center;
+    text-align: center;
+    width: 270px;
+    height: 197px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414
+}
+
+.aim-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 15px;
+}
+
+/* <!-- Linear Gradient Style --> */
+/* .linear-gradient-container{
+    justify-content: center;
+    justify-items: center;
     align-items: center;
+} */
+.linear-gradient {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    margin-left: 170px;
+    border-radius: 8px;
+
+
+}
+
+/* footer Style */
+.footer-container {
+    background-color: #151414;
+    height: 577px;
+    display: flex;
+    flex-direction: ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-sub-title {
+    color: #F8F8F8;
+    width: 400px;
+    height: 765x;
+}
+
+.Email {
+    color: #F8F8F8;
+    margin-bottom: 8px;
+}
+
+p {
+    color: #F8F8F8;
+}
+.subscribe{
+    width: 325px;
+    height: 204px;
+    margin: 8px;
+
+}
+.Subscribe-title{
+    color: #F8F8F8;
+    margin-bottom: 8px;
 }
